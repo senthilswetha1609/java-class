@@ -1,6 +1,8 @@
 class q1{
     public static void main (String [] args){
-        int a = 2;
-        System.out.println(a);
+        String a = new String  ("apple");
+        String b = new String ("apple");
+
+        System.out.println(a==b);
     }
 }
