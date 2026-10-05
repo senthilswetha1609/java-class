@@ -1,8 +1,17 @@
+ import java.util.Scanner;
 class q1{
-    public static void main (String [] args){
-        String a = new String  ("apple");
-        String b = new String ("apple");
+    public static void main (String [] args)
+    {
+        Scanner swea = new Scanner (System.in);
+        int a = swea.nextInt();
 
-        System.out.println(a==b);
+        if(a/3){
+            System.out.println("the num is divisible by 3 and 5");
+        }
+        else{
+             System.out.println("the num is not divisible by 3 and 5");
+
+        }
+
     }
 }
